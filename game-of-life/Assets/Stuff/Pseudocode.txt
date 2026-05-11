@@ -1,0 +1,103 @@
+// Note 1: Here are not described button classes, neither how camera is zooming in and out (kept some fun for u also)
+// Note 2: Here are also not mention how special zones are created (a button press + mouse click), but whoever will start to write them,
+// i would like that by making a click, that special zone will spawn as a cricle of radius, let's say 20, and the center at the mouse position
+// Note 3: For now in Cell "is" described only one default rule, add more rules as another methods.
+// Note 4: There is a small bug about TimeManager.Wait() which blocks buttons interactions between iterations of grid,
+// which leads to nearly imposible usage of them. A smart "person" said that it can be easily ommited using Coroutines, 
+// u'll ask him later.
+// Note 5: Let's not think for now about reaching the edge of the map, another scenes for the game (only if u wanna add some cut scenes with plot at the begginig - be my guest).
+
+hey
+class GameManager:
+    // Here we'll be added all necessary fields of other objects
+
+    method Start:
+        Grid.Initiate()
+        Buttons.Initiate()
+        buttonList = {button1, button2, ...}
+        
+    method Update:
+        ButtonsUpdate()
+        if InfoButton is Active:
+            InfoPanel.Show()  // The easiest way is just to make an image for this
+
+        // Mouse handling
+        if MouseLeftButton is clicked and in motion:
+            CameraNavigation()
+        if MouseRightButton is clicked:
+            collidetCells = MousePosition.collide(Cell)  // Or Unity have some nice built in function for this, or you will iterate each cell and check if they collide
+            for cell in collidetCells:
+                cell.MakeAlive()
+        if MouseScroll is up:
+            CameraZoomIn()
+        if MouseScroll is down:
+            CameraZoomOut()
+
+        if PauseButton.State is Active:  // State will be handled by buttons' scripts (in StartButton and PauseButton)
+            return
+        else if StartButton is clicked:
+            if InfiniteButton.State is Active:
+                TimeManager.Wait()
+                Grid.Update()
+            else:
+                while NumberOfIterationsField.GetCount > 0:
+                    NumberOfIterationsField.SetCount -= 1
+                    TimeManager.Wait()
+                    Grid.Update()
+
+    method ButtonsUpdate:
+        for button in buttonsList:
+            button.Update()
+
+class Grid:
+    Cells[] cells;
+
+    method Initiate:
+        // Two nested for-loops to create a matrix (around 1000x1000) with even space between cells
+
+    method Update:
+        for cell in cells:
+            cell.ApplyRule()
+        // This second iteration is for the next state in which will be the cell
+        // We won't modify them from the first iteration, because next cell will look at his upper-left neighbors for decision,
+        // but they already changed the state. So in order to avoid changing states based on future state of the neighbors,
+        // we firstly we'll save the next state, and only after each cell will know what to become, the will change
+        for cell in cells:
+            cell.BecomeNextState()
+
+class Cell:
+    index_x = ...; // the index of the matrix
+    index_y = ...; // the index of the matrix
+    currentState = Black;
+    nextState = White;
+
+    method Start:
+        return
+
+    method Update:
+        return
+
+    method ApplyDefaultRule:
+        // Here you'll define the default rule of when being alive or dead
+        ...
+
+        // Here you'll apply that rule
+        if grid[index_x - 1][index_y - 1] is ... and ... and ...:
+            nextState = Black;
+        else:
+            nextState = White;
+
+    method BecomeNextState:
+        currentState = nextState;
+        if currentState is Alive:
+            sprite.set(White);
+        sprite.Set(Black)
+
+class TimeManager:
+    // One of the fields will be Speed slide
+
+    method Wait:
+        // Check Note no. 4.
+        // Here Time is some library which will pause the game for some time
+        // Adjust the time such that the minimum would not be too slow, and the maximum not extremly fast
+        Time.Wait(Speed.Count * someTime)

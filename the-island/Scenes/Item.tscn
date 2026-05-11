@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://djlulhewct14i"]
+
+[ext_resource type="Script" path="res://Scenes/Item.gd" id="1_bd84j"]
+[ext_resource type="Texture2D" uid="uid://cgf8i3tf75jem" path="res://Scripts/InventoryData/items/carrot.png" id="2_tik4k"]
+
+[node name="Item" type="Node2D"]
+script = ExtResource("1_bd84j")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = 5.0
+offset_top = 5.0
+offset_right = 36.0
+offset_bottom = 35.0
+mouse_filter = 2
+texture = ExtResource("2_tik4k")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="."]
+offset_left = 29.0
+offset_top = 26.0
+offset_right = 52.0
+offset_bottom = 49.0
+theme_override_font_sizes/font_size = 13
+text = "99"

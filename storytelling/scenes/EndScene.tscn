@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://other_assets/restart.png" type="Texture" id=1]
+[ext_resource path="res://images/free-background.png" type="Texture" id=2]
+[ext_resource path="res://scripts/EndScene.cs" type="Script" id=3]
+
+[node name="EndScene" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="Background" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+centered = false
+
+[node name="RestartButton" type="Button" parent="."]
+margin_left = 1752.0
+margin_top = 1023.0
+margin_right = 1881.0
+margin_bottom = 1050.0
+icon = ExtResource( 1 )
+flat = true

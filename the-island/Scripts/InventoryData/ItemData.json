@@ -1,0 +1,27 @@
+{
+  "carrot": {
+    "ItemCategory": "Food",
+    "StackSize": 99,
+    "Description": "A fresh, crunchy carrot. Restores a small amount of health."
+  },
+  "sword": {
+    "ItemCategory": "Weapon",
+    "StackSize": 1,
+    "Description": "A basic iron sword. Reliable for close combat."
+  },
+  "potion": {
+    "ItemCategory": "Consumable",
+    "StackSize": 10,
+    "Description": "Restores 50 health points when used."
+  },
+  "woodLog": {
+    "ItemCategory": "Material",
+    "StackSize": 50,
+    "Description": "Useful for crafting and building structures."
+  },
+  "spell": {
+    "ItemCategory": "Magic",
+    "StackSize": 5,
+    "Description": "Contains a powerful spell. Use wisely."
+  }
+}

@@ -1,0 +1,15 @@
+# Godot
+.import/
+.mono/
+export_presets.cfg
+icon.png.import
+
+# Build files
+bin/
+obj/
+*.csproj.user
+
+# IDE files
+.idea/
+.vscode/
+

@@ -1,0 +1,56 @@
+[
+	{
+		"Question": "Hi",
+		"Response": "Hi there, u must be new, welcome!",
+		"CanRepeat": false,
+		"Passed": false
+	},
+	{
+		"Question": "So, how we are entertain here?",
+		"Response": "Farming, haunting, hiking...",
+		"CanRepeat": true,
+		"Passed": false
+	},
+	{
+		"Question": "Can u tell me more about island's history?",
+		"Response": "I think it's none of your business!",
+		"CanRepeat": false,
+		"Passed": false
+	},
+	{
+		"Question": "Why do people whisper at night?",
+		"Response": "Old habits die hard around here. Best not to listen.",
+		"CanRepeat": false,
+		"Passed": false
+	},
+	{
+		"Question": "I saw something near your house last night...",
+		"Response": "You must be tired. This place plays tricks on the mind.",
+		"CanRepeat": false,
+		"Passed": false
+	},
+	{
+		"Question": "Do you know how my grandfather died?",
+		"Response": "He wasn’t careful. The island doesn't forgive mistakes.",
+		"CanRepeat": false,
+		"Passed": false
+	},
+	{
+		"Question": "Are you hiding something from me?",
+		"Response": "You're starting to sound just like him...",
+		"CanRepeat": false,
+		"Passed": false
+	},
+	{
+		"Question": "Why do you never leave the house at night?",
+		"Response": "Would you, if you knew what walked outside?",
+		"CanRepeat": false,
+		"Passed": false
+	},
+	{
+		"Question": "I think you know more than you're telling me.",
+		"Response": "Curiosity got your grandfather killed. Don’t follow him.",
+		"CanRepeat": false,
+		"Passed": false
+	}
+]

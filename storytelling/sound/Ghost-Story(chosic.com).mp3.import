@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Ghost-Story(chosic.com).mp3-3ce1518d9027615b0749d14a4ff96cbd.mp3str"
+
+[deps]
+
+source_file="res://sound/Ghost-Story(chosic.com).mp3"
+dest_files=[ "res://.import/Ghost-Story(chosic.com).mp3-3ce1518d9027615b0749d14a4ff96cbd.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,2073 @@
+[
+	{
+		"id": 1,
+		"mainText": "I wake up in Room 404. My head is pounding, and my vision takes a moment to adjust to the dim glow of the bedside lamp.",
+
+		"backgroundImage": "bg.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 111
+			}
+		]
+	},
+	{
+		"id": 111,
+		"mainText": "The air is thick with dust, carrying the scent of something old and forgotten. Everything in this room looks like it hasn’t been touched in years—except for me.",
+
+		"backgroundImage": "bg.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 112
+			}
+		]
+	},
+	{
+		"id": 112,
+		"mainText": "Something about this place feels wrong.I try to ignore the unease creeping up my spine and make my way to the door.",
+
+		"backgroundImage": "bg.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 113
+			}
+		]
+	},
+	{
+		"id": 113,
+		"mainText": "I head out to the lobby, hoping to get some answers.",
+
+		"backgroundImage": "hallway.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2
+			}
+		]
+	},
+	{
+		"id": 2,
+		"mainText": "What do I do at the front desk?", 
+		"backgroundImage": "reception.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Ignore her and explore the hotel",
+				"leadToId": 201
+			},
+			{
+				"optionText": "Talk to the receptionist",
+				"leadToId": 3
+			},
+			{
+				"optionText": "Leave the hotel entirely",
+				"leadToId": 3
+			}
+		]
+	},
+
+	{
+	"id": 201,
+	"mainText": "The hallway stretches into eerie silence, the dim lights flickering like dying fireflies. As I take a hesitant step forward, the air turns heavy, thick with something unseen.",
+	"backgroundImage": "hallway.jpg",
+	"options":
+	[
+		{
+			"optionText": "Go back to the front desk",
+			"leadToId": 2
+		},
+		{
+			"optionText": "Next",
+			"leadToId": 202
+		}
+	]
+	},
+
+	{
+		"id": 202,
+		"mainText": "Then—just at the edge of my vision—something shifts. A silhouette, impossibly tall, emerges from the shadows.  ",
+		"backgroundImage": "silhouette.png",
+		"options":
+		[
+			{
+				"optionText": "Go back to the front desk",
+				"leadToId": 2
+			},
+			{
+				"optionText": "Stay and investigate",
+				"leadToId": 203
+			}
+		]
+	},
+
+	{
+		"id": 203,
+		"mainText": "A low, wet breathing sound fills the space behind me. My spine stiffens as cold fingers brush against my shoulder—no, not fingers. Claws.",
+		"backgroundImage": "claws.png",
+		"options":
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 204
+			}
+		]
+	},
+
+	{
+		"id": 204,
+		"mainText": "My breath catches. The lights above flicker violently, revealing glimpses of something hunched and twitching, its head lolling from side to side as if studying me. My feet refuse to move.  ",
+		"backgroundImage": "claws.png",
+		"options":
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 205
+			}
+		]
+	},
+
+	{
+		"id": 205,
+		"mainText": "A shriek, raw and inhuman, erupts behind me. Before I can turn, a bony hand clamps around my throat, lifting me effortlessly off the ground.   ",
+		"backgroundImage": "neck.png",
+		"options":
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 206
+			}
+		]
+	},
+
+	{
+		"id": 206,
+		"mainText": "The last thing I see is its gaping maw, lined with rows of jagged teeth, rushing toward my face. A flash of agony—then nothing.",
+		"backgroundImage": "monster.png",
+		"options":
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 101
+			}
+		]
+	},
+
+	{
+		"id": 101,
+		"mainText": "You got killed", 
+		"backgroundImage": "image1.png",
+		"options": 
+		[
+			{
+				"optionText": "Continue",
+				"leadToId": 1
+			}
+		]
+	},
+	{
+		"id": 3,
+		"mainText": "Receptionist: 'You can’t leave until you understand what’s hidden in the darkness. Keep searching, or you’ll never find the truth.'",
+		"backgroundImage": "reception.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 331
+			}
+		]
+	},
+	{
+		"id": 331,
+		"mainText": "I feel a shiver down my spine, but I try to ignore the unsettling feeling and move on.",
+		"backgroundImage": "reception.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 332
+			}
+		]
+	},
+	{
+		"id": 332,
+		"mainText": "I’m not sure what she means by ‘hidden in the darkness,’ but I’ll have to find out.",
+		"backgroundImage": "reception.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 4
+			}
+		]
+	},
+	{
+		"id": 4,
+		"mainText": "I go back to my room to search for clues.",
+		"backgroundImage": "bg.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 441
+			}
+		]
+	},
+	{
+		"id": 441,
+		"mainText": "I look around, especially near the nightstand, and find a note tucked underneath.",
+		"backgroundImage": "note.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 442
+			}
+		]
+	},
+	{
+		"id": 442,
+		"mainText": "What do I do with the note?",
+		"backgroundImage": "note.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Leave it and ignore it",
+				"leadToId": 301
+			},
+			{
+				"optionText": "Shove it in my pocket and forget about it",
+				"leadToId": 311
+			},
+			{
+				"optionText": "Read it carefully",
+				"leadToId": 5
+			}
+		]
+	},
+	{
+		"id": 311,
+		"mainText": "I shove it in my pocket, dismissing it as irrelevant. As I turn away, a gust of frigid air brushes past me.",
+		"backgroundImage": "note-pocket.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 302
+			}
+		]
+	},
+	{
+		"id": 301,
+		"mainText": "I let the note fall back onto the nightstand, dismissing it as irrelevant. As I turn away, a gust of frigid air brushes past me.",
+		"backgroundImage": "note.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 302
+			}
+		]
+	},
+	{
+		"id": 302,
+		"mainText": "The room groans, the floorboards shifting beneath my feet. Then, the walls begin to change—the old, peeling wallpaper bubbles as something black seeps through the cracks. The air smells of decay.",
+		"backgroundImage": "decay-room.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Stay and wait",
+				"leadToId": 303
+			},
+			{
+				"optionText": "Grab the note after all",
+				"leadToId": 5
+			}
+		]
+	},
+	{
+		"id": 303,
+		"mainText": "A whisper slithers through the room, curling into my ears. It repeats my name, over and over, growing louder with each repetition.",
+		"backgroundImage": "decay-room.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 304
+			}
+		]
+	},
+	{
+		"id": 304,
+		"mainText": "The lights flicker erratically before shutting off completely. I reach for the lamp, but my fingers touch something wet and warm. My breath hitches as a sharp, guttural growl echoes from behind the bed.",
+		"backgroundImage": "lamp-off.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 305
+			}
+		]
+	},
+	{
+		"id": 305,
+		"mainText": "The darkness isn't empty. It's alive...",
+		"backgroundImage": "lamp-off.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 306
+			}
+		]
+	},
+	{
+		"id": 306,
+		"mainText": "Dozens of hands—elongated, skeletal—shoot out from the shadows, grabbing my limbs and pulling me down. I thrash, scream, but they tighten their grip, dragging me into a chasm that wasn’t there before.",
+		"backgroundImage": "skeleton-hands.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 307
+			}
+		]
+	},
+	{
+		"id": 307,
+		"mainText": "My body is swallowed whole by the floor, my last breath stolen as unseen mouths whisper in delight.",
+		"backgroundImage": "skeleton-hands.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 101
+			}
+		]
+	},
+	{
+		"id": 5,
+		"mainText": "I read the note carefully.\n\nIt says: “The truth is hidden in the dark.”",
+		"backgroundImage": "reading-note.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 551
+			}
+		]
+	},
+	{
+		"id": 551,
+		"mainText": "I don’t fully understand it yet, but it feels important.",
+		"backgroundImage": "bg.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 6
+			}
+		]
+	},
+	{
+		"id": 6,
+		"mainText": "I walk into the hallway, feeling drawn to something in the distance.",
+		"backgroundImage": "hallway.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 661
+			}
+		]
+	},
+	{
+		"id": 661,
+		"mainText": "I see a strange glowing symbol on the wall.",
+		"backgroundImage": "strange-symbol.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 662
+			}
+		]
+	},
+	{
+		"id": 662,
+		"mainText": "What do I do about the glowing symbol?",
+		"backgroundImage": "strange-symbol.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Follow the symbol",
+				"leadToId": 7
+			},
+			{
+				"optionText": "Ignore it and explore the hotel ",
+				"leadToId": 6001
+			},
+			{
+				"optionText": "Run back to my room",
+				"leadToId": 6001
+			}
+		]
+	},
+	{
+		"id": 6001,
+		"mainText": "I turn my back on the glowing symbol, deciding I want no part in whatever it is.",
+		"backgroundImage": "turn-away-hallway.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 6002
+			}
+		]
+	},
+	{
+		"id": 6002,
+		"mainText": "The hallway around me suddenly feels different. The air turns stagnant.",
+		"backgroundImage": "different-hallway.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 6003
+			}
+		]
+	},
+	{
+		"id": 6003,
+		"mainText": "The sound of my own footsteps fades, as if the space itself has swallowed the noise.",
+		"backgroundImage": "different-hallway.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 6004
+			}
+		]
+	},
+	{
+		"id": 6004,
+		"mainText": "When I look back, the symbol is gone. So is the door I came through.",
+		"backgroundImage": "empty-hallway.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 6005
+			}
+		]
+	},
+	{
+		"id": 6005,
+		"mainText": "What do I do next?",
+		"backgroundImage": "empty-hallway.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Stay and keep moving forward",
+				"leadToId": 6006
+			},
+			{
+				"optionText": "Turn around and try to find the symbol again",
+				"leadToId": 7
+			}
+		]
+	},
+	{
+		"id": 6006,
+		"mainText": "A deep rumbling vibrates through the walls, followed by a slow, rhythmic tapping. My breath catches in my throat. ",
+		"backgroundImage": "rotting-hallway.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 6007
+			}
+		]
+	},
+	{
+		"id": 6007,
+		"mainText": "It’s not footsteps—it’s something mimicking them. The tapping grows louder, closer.",
+		"backgroundImage": "rotting-hallway.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 6008
+			}
+		]
+	},
+	{
+		"id": 6008,
+		"mainText": "A shadow—tall, disjointed, barely human—emerges at the far end of the hall.",
+		"backgroundImage": "tall-shadow-hallway.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 6009
+			}
+		]
+	},
+	{
+		"id": 6009,
+		"mainText": "It moves in unnatural jerks, like a puppet with its strings tangled.",
+		"backgroundImage": "tall-shadow-hallway.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 6010
+			}
+		]
+	},
+	{
+		"id": 6010,
+		"mainText": "I turn to run, but the hallway stretches endlessly, impossibly long.",
+		"backgroundImage": "long-shadow-hallway.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 6011
+			}
+		]
+	},
+	{
+		"id": 6011,
+		"mainText": "The creature gains on me. The last thing I feel is something cold and sharp pressing against the back of my skull—then a violent jerk.",
+		"backgroundImage": "long-shadow-attacking.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 6012
+			}
+		]
+	},
+	{
+		"id": 6012,
+		"mainText": "A sharp snap. The world goes black.",
+		"backgroundImage": "black.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 103
+			}
+		]
+	},
+	{
+		"id": 7,
+		"mainText": "I decide to follow the symbol.",
+		"backgroundImage": "strange-symbol.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 771
+			}
+		]
+	},
+	{
+		"id": 771,
+		"mainText": "It leads me to a hidden door that I don’t remember seeing before.",
+		"backgroundImage": "creepyRoom1.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 772
+			}
+		]
+	},
+	{
+		"id": 772,
+		"mainText": "The door is locked. I wonder if this is where I need to go next.",
+		"backgroundImage": "creepyRoom1.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 773
+			}
+		]
+	},
+	{
+		"id": 773,
+		"mainText": "I head back to my room to think. The night passes, and I fall asleep, but something feels off.",
+		"backgroundImage": "bg.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 8
+			}
+		]
+	},
+	{
+		"id": 8,
+		"mainText": "I wake up in Room 404 again. I’m starting to feel like I’m stuck in a loop.",
+		"backgroundImage": "bg.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 9
+			}
+		]
+	},
+	{
+		"id": 9,
+		"mainText": "What do I do this time when I meet the receptionist?",
+		"backgroundImage": "reception.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Leave the hotel",
+				"leadToId": 9001
+			},
+			{
+				"optionText": "Ask for more information",
+				"leadToId": 10
+			},
+			{
+				"optionText": "Walk away and explore the hotel",
+				"leadToId": 9101
+			}
+		]
+	},
+	{
+		"id": 9001,
+		"mainText": "I push open the front doors and step outside, desperate for fresh air.",
+		"backgroundImage": "outside-clouds.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Keep moving forward",
+				"leadToId": 9002
+			},
+			{
+				"optionText": "Hesitate and turn back",
+				"leadToId": 9
+			}
+		]
+	},
+	{
+		"id": 9101,
+		"mainText": "Instead of engaging with the receptionist, I turn my back on her and step deeper into the hotel",
+		"backgroundImage": "deeper-hallway.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Keep moving forward",
+				"leadToId": 9102
+			},
+			{
+				"optionText": "Hesitate and turn back",
+				"leadToId": 9
+			}
+		]
+	},
+	{
+		"id": 9002,
+		"mainText": "The outside world warps before my eyes, stretching into an endless void of shifting darkness.",
+		"backgroundImage": "warped-outside.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 9003
+			}
+		]
+	},
+	{
+		"id": 9102,
+		"mainText": "The hallways seem to stretch longer than before, twisting at impossible angles",
+		"backgroundImage": "stretched-hallways.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 9003
+			}
+		]
+	},
+	{
+		"id": 9003,
+		"mainText": "The further I go, the more everything seems to distort. My vision worsens—black spots swimming in my eyes.",
+		"backgroundImage": "distorted-vision.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 9004
+			}
+		]
+	},
+	{
+		"id": 9004,
+		"mainText": "What do I do?",
+		"backgroundImage": "more-distorted-vision.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Run back the way I came",
+				"leadToId": 9
+			},
+			{
+				"optionText": "Press forward, ignoring the fear",
+				"leadToId": 9005
+			}
+		]
+	},
+	{
+		"id": 9005,
+		"mainText": "An ocean of darkness began to swallow everything.",
+		"backgroundImage": "even-more-distorted-vision.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 9006
+			}
+		]
+	},
+	{
+		"id": 9006,
+		"mainText": "I can't move, I can't breathe. Then --",
+		"backgroundImage": "black.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 102
+			}
+		]
+	},
+	{
+		"id": 102,
+		"mainText": "You got killed", 
+		"backgroundImage": "image1.png",
+		"options": 
+		[
+			{
+				"optionText": "Continue",
+				"leadToId": 8
+			}
+		]
+	},
+	{
+		"id": 10,
+		"mainText": "I ask her again for more information.",
+		"backgroundImage": "reception.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1011
+			}
+		]
+	},
+	{
+		"id": 1011,
+		"mainText": "Receptionist: “The path you seek is lit by the shadows. Find the light to see what’s hidden.“",
+		"backgroundImage": "reception.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1012
+			}
+		]
+	},
+	{
+		"id": 1012,
+		"mainText": "What does that mean? Shadows? Light?",
+		"backgroundImage": "reception.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1013
+			}
+		]
+	},
+	{
+		"id": 1013,
+		"mainText": "It must be a clue, but I don’t know what to do with it yet.",
+		"backgroundImage": "reception.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 11
+			}
+		]
+	},
+	{
+		"id": 11,
+		"mainText": "I go back to my room. This time, I check the nightstand again, and the same note is there.",
+		"backgroundImage": "note.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1101
+			}
+		]
+	},
+	{
+		"id": 1101,
+		"mainText": "What do I do with the note this time?",
+		"backgroundImage": "note.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Ignore it again",
+				"leadToId": 1102
+			},
+			{
+				"optionText": "Read it again carefully",
+				"leadToId": 12
+			},
+			{
+				"optionText": "Shove it in my pocket again",
+				"leadToId": 1102
+			}
+		]
+	},
+	{
+		"id": 1102,
+		"mainText": "I leave the note on the nightstand again, dismissing it as meaningless.",
+		"backgroundImage": "note.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1103
+			}
+		]
+	},
+	{
+		"id": 1103,
+		"mainText": "The room shifts around me—walls groaning, floors creaking beneath my feet. Something stirs in the dark corners, restless and waiting.",
+		"backgroundImage": "room-shifting.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Stay and wait",
+				"leadToId": 1104
+			},
+			{
+				"optionText": "Grab the note after all",
+				"leadToId": 12
+			}
+		]
+	},
+	{
+		"id": 1104,
+		"mainText": "The temperature plummets. The air thickens with an unnatural stillness.",
+		"backgroundImage": "room-shifting.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1105
+			}
+		]
+	},
+	{
+		"id": 1105,
+		"mainText": "A faint whisper curls around my name, repeated like a chant. It grows louder, more urgent.",
+		"backgroundImage": "room-shifting.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1106
+			}
+		]
+	},
+	{
+		"id": 1106,
+		"mainText": "Suddenly, the lights flicker, and I feel something wet and cold brush against my ankle.",
+		"backgroundImage": "room-altered.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Turn around and face the darkness",
+				"leadToId": 1107
+			}
+		]
+	},
+	{
+		"id": 1107,
+		"mainText": "I turn, and the darkness isn't empty. Hands—cold, skeletal—reach out, grabbing my limbs.",
+		"backgroundImage": "skeleton-hands.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1108
+			}
+		]
+	},
+	{
+		"id": 1108,
+		"mainText": "I struggle, but their grip is vice-like, pulling me into the void. I scream as I’m dragged beneath the floorboards, my body swallowed whole by a darkness that’s alive.",
+		"backgroundImage": "skeleton-hands.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1109
+			}
+		]
+	},
+	{
+		"id": 1109,
+		"mainText": "Then, silence.",
+		"backgroundImage": "black.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 102
+			}
+		]
+	},
+	{
+		"id": 12,
+		"mainText": "I read the note again.\n\nIt still says: “The truth is hidden in the dark.”",
+		"backgroundImage": "reading-note.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1201
+			}
+		]
+	},
+	{
+		"id": 1201,
+		"mainText": "I can’t help but feel there’s something I’m missing. I’ll need to find something to help me understand the message.",
+		"backgroundImage": "bg.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 13
+			}
+		]
+	},
+	{
+		"id": 13,
+		"mainText": "I follow it down the same path again, leading me to the hidden door.",
+		"backgroundImage": "hallway.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1301
+			}
+		]
+	},
+	{
+		"id": 1301,
+		"mainText": "I follow it down the same path again, leading me to the hidden door.",
+		"backgroundImage": "hallway.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1302
+			}
+		]
+	},
+	{
+		"id": 1302,
+		"mainText": "What do I do with the hidden door now that I have a hint?",
+		"backgroundImage": "hallway.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Use the lantern from my room",
+				"leadToId": 14
+			},
+			{
+				"optionText": "Try to force the door open",
+				"leadToId": 1303
+			},
+			{
+				"optionText": "Ignore the door for now",
+				"leadToId": 1309
+			}
+		]
+	},
+	{
+		"id": 1303,
+		"mainText": "I attempt to force the door open with the key, but it doesn’t budge.",
+		"backgroundImage": "force-door.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1304
+			}
+		]
+	},
+	{
+		"id": 1304,
+		"mainText": "Frustration builds as I slam my shoulder into it, pushing harder, but it’s no use. The door is stuck, sealed shut as if mocking my attempts.",
+		"backgroundImage": "forcing-door.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Keep trying to force it open",
+				"leadToId": 1305
+			},
+			{
+				"optionText": "Step back and think",
+				"leadToId": 1302
+			}
+		]
+	},
+	{
+		"id": 1309,
+		"mainText": "I decide to leave the door for now and continue down the hallway.",
+		"backgroundImage": "hallway.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1310
+			}
+		]
+	},
+	{
+		"id": 1310,
+		"mainText": "The air feels heavier, and the hotel seems to grow quieter, more oppressive. With each step, the silence becomes unbearable, as if the hotel is waiting for something—waiting for me to make a mistake.",
+		"backgroundImage": "deeper-hallway.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Keep walking",
+				"leadToId": 1305
+			},
+			{
+				"optionText": "Go back to the door and keep thinking",
+				"leadToId": 1302
+			}
+		]
+	},
+	{
+		"id": 1305,
+		"mainText": "A deep, growling sound emerges from the darkness behind me.",
+		"backgroundImage": "deeper-hallway.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1306
+			}
+		]
+	},
+	{
+		"id": 1306,
+		"mainText": "I turn just in time to see something lurch toward me—twisted, monstrous. Its form is too hard to describe, shifting and undulating like a nightmare come to life.",
+		"backgroundImage": "bent-shadow.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Run",
+				"leadToId": 1307
+			}
+		]
+	},
+	{
+		"id": 1307,
+		"mainText": "I try to run, but my legs are leaden, and the creature is faster. It snatches me in an instant, its cold claws digging into my flesh.",
+		"backgroundImage": "neck.png",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1308
+			}
+		]
+	},
+	{
+		"id": 1308,
+		"mainText": "My body is thrown violently to the ground, my vision darkening as it closes in on me. The last thing I feel is a sharp pain in my chest before everything goes black.",
+		"backgroundImage": "black.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 102
+			}
+		]
+	},
+	{
+		"id": 14,
+		"mainText": "The shadows seem to shift with the lantern’s light, revealing a hidden compartment next to the door.",
+		"backgroundImage": "creepyRoom2.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Continue looking",
+				"leadToId": 1401
+			},
+			{
+				"optionText": "Destroy the lantern",
+				"leadToId": 2301
+			},
+			{
+				"optionText": "Confront the hotel",
+				"leadToId": 2401
+			}
+		]
+	},
+	{
+		"id": 2301,
+		"mainText": "Instead of using the lantern, I lift it high and smash it against the ground.",
+		"backgroundImage": "2301.png",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2302
+			}
+		]
+	},
+	{
+		"id": 2302,
+		"mainText": "Glass shatters, flames sputter out, and for a moment, everything goes dark.",
+		"backgroundImage": "2302.png",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2303
+			}
+		]
+	},
+	{
+		"id": 2303,
+		"mainText": "the hotel flickers—like a corrupted image struggling to render. The walls ripple, distorting, revealing something that wasn’t there before. ",
+		"backgroundImage": "2303.png",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2304
+			}
+		]
+	},
+	{
+		"id": 2304,
+		"mainText": "A hidden passage yawns open before me.",
+		"backgroundImage": "2304.png",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2305
+			}
+		]
+	},
+	{
+		"id": 2305,
+		"mainText": "Inside, dust-coated journals rest in uneven stacks. I reach for one, my fingers trembling as I flip through brittle pages.",
+		"backgroundImage": "2305.png",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2306
+			}
+		]
+	},
+	{
+		"id": 2306,
+		"mainText": "Every single entry says the same thing, scrawled in desperate, uneven handwriting: “The hotel isn’t real.” ",
+		"backgroundImage": "2306.png",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2307
+			}
+		]
+	},
+	{
+		"id": 2307,
+		"mainText": "The whispers, the shifting walls, the endless halls—I knew something was wrong. And now, I understand. I’m dreaming. No—not dreaming. Trapped.",
+		"backgroundImage": "2307.png",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2308
+			}
+		]
+	},
+	{
+		"id": 2308,
+		"mainText": "The hotel trembles, the walls crack, and the illusion frays at the edges. I force myself to remember who I am—to reject this place.",
+		"backgroundImage": "2308.png",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2309
+			}
+		]
+	},
+	{
+		"id": 2309,
+		"mainText": "A deafening roar fills my ears as the hotel collapses around me. Everything crumbles into nothingness \n Then—",
+		"backgroundImage": "black.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2310
+			}
+		]
+	},
+	{
+		"id": 2310,
+		"mainText": "I wake up. My lungs burn as I gasp for air. Bright, sterile light floods my vision, and the beeping of monitors fills the room.",
+		"backgroundImage": "2310.png",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2311
+			}
+		]
+	},
+	{
+		"id": 2311,
+		"mainText": "I’m in a hospital bed. \nA doctor stands beside me, relief washing over his face. “You almost didn’t make it,” he says.",
+		"backgroundImage": "23112312.png",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2312
+			}
+		]
+	},
+	{
+		"id": 2312,
+		"mainText": "Congratulations, you broke the illusion.",
+		"backgroundImage": "23112312.png",
+		"options": 
+		[
+			{
+				"optionText": "End",
+				"leadToId": -3
+			}
+		]
+	},
+	
+	{
+		"id": 2401,
+		"mainText": "Instead of smashing the lantern or ignoring the door, I face the hotel directly",
+		"backgroundImage": "240124022403.png",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2402
+			}
+		]
+	},
+	{
+		"id": 2402,
+		"mainText": "I refuse to escape or accept my fate, realizing that the hotel feeds on fear and submission.",
+		"backgroundImage": "240124022403.png",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2403
+			}
+		]
+	},
+	{
+		"id": 2403,
+		"mainText": "I speak aloud:\n “You are nothing. You have no power over me.”",
+		"backgroundImage": "240124022403.png",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2404
+			}
+		]
+	},
+	{
+		"id": 2404,
+		"mainText": "The hotel shakes violently, its walls cracking as the shadows scream.",
+		"backgroundImage": "2404.png",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2405
+			}
+		]
+	},
+	{
+		"id": 2405,
+		"mainText": "The source of the nightmare emerges, trying to drag me back into the cycle. ",
+		"backgroundImage": "2405.png",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2406
+			}
+		]
+	},
+	{
+		"id": 2406,
+		"mainText": "Instead of running or fighting, I walk through it, unafraid. The entity collapses into dust.",
+		"backgroundImage": "2406.png",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2407
+			}
+		]
+	},
+	{
+		"id": 2407,
+		"mainText": "The hotel implodes, and I stand in a field, under a real sky. I have not just escaped — I have destroyed the cycle forever.",
+		"backgroundImage": "2407.png",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2408
+			}
+		]
+	},
+	{
+		"id": 2408,
+		"mainText": "Congratulations, you have found true liberation.",
+		"backgroundImage": "2408.png",
+		"options": 
+		[
+			{
+				"optionText": "End",
+				"leadToId": -4
+			}
+		]
+	},
+	{
+		"id": 1401,
+		"mainText": "Inside, I find an old key. This must be it.",
+		"backgroundImage": "creepyRoom2.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 15
+			}
+		]
+	},
+	{
+		"id": 15,
+		"mainText": "I feel a surge of hope. Could this be the key to getting out of here?",
+		"backgroundImage": "creepyRoom2.jpg",
+		"options": 
+		[
+			
+			{
+				"optionText": "Next",
+				"leadToId": 1501
+			}
+		]
+	},
+	{
+		"id": 1501,
+		"mainText": "I walk over to the hidden door, key in hand.\n\nWhat do I do now?",
+		"backgroundImage": "creepyRoom2.jpg",
+		"options": 
+		[
+			
+			{
+				"optionText": "Go back to my room",
+				"leadToId": 1508
+			},
+			{
+				"optionText": "Use the key to open the door",
+				"leadToId": 16
+			},
+			{
+				"optionText": "Leave the hotel through the front entrance ",
+				"leadToId": 1502
+			}
+		]
+	},
+	{
+		"id": 1508,
+		"mainText": "I turn around and head back to my room, hoping to find some clarity.",
+		"backgroundImage": "hallway.jpg",
+		"options": 
+		[
+			
+			{
+				"optionText": "Next",
+				"leadToId": 1509
+			}
+		]
+	},
+	{
+		"id": 1509,
+		"mainText": " But as I walk, the hallway seems to stretch on endlessly, the door to my room growing farther and farther away. The air grows heavier, and the hotel feels like it’s shifting around me, making each step feel slower.",
+		"backgroundImage": "stretched-hallways.jpg",
+		"options": 
+		[
+			
+			{
+				"optionText": "Keep walking toward the room",
+				"leadToId": 1504
+			},
+			{
+				"optionText": "Turn around and explore more",
+				"leadToId": 1501
+			}
+		]
+	},
+	{
+		"id": 1502,
+		"mainText": "I decide to leave through the front entrance. Maybe I can escape whatever is happening...",
+		"backgroundImage": "exit-door-close.jpg",
+		"options": 
+		[
+			
+			{
+				"optionText": "Next",
+				"leadToId": 1503
+			}
+		]
+	},
+	{
+		"id": 1503,
+		"mainText": "But as I approach the door, I feel an overwhelming sense of wrongness. The door refuses to open, no matter how hard I pull. The hallway stretches unnaturally, and the exit seems further and further away.",
+		"backgroundImage": "exit-door-closer.jpg",
+		"options": 
+		[
+			
+			{
+				"optionText": "Run to another exit door",
+				"leadToId": 1504
+			}, {
+				"optionText": "Turn around and explore more",
+				"leadToId": 1501
+			}
+		]
+	},
+	{
+		"id": 1504,
+		"mainText": "The hallway around me seems to pulse, the walls closing in as though the hotel itself is alive. I look back, but the front entrance is no longer there.",
+		"backgroundImage": "empty-hallway.jpg",
+		"options": 
+		[
+			
+			{
+				"optionText": "Next",
+				"leadToId": 1505
+			}
+		]
+	},
+	{
+		"id": 1505,
+		"mainText": "It has vanished into the shadows, replaced by a solid wall. I turn around to face something far worse—the creature is here.",
+		"backgroundImage": "long-shadow-hallway.jpg",
+		"options": 
+		[
+			
+			{
+				"optionText": "Next",
+				"leadToId": 1506
+			}
+		]
+	},
+	{
+		"id": 1506,
+		"mainText": "The creature moves swiftly, its skeletal hand reaching out for me.",
+		"backgroundImage": "tall-shadow-hallway.jpg",
+		"options": 
+		[
+			
+			{
+				"optionText": "Try to fight back",
+				"leadToId": 1507
+			}
+		]
+	},
+	{
+		"id": 1507,
+		"mainText": "Before I can even react, its fingers curl around my throat, lifting me off the ground. The pressure builds until my vision fades, the last thing I feel being the cold grip tightening.",
+		"backgroundImage": "neck.png",
+		"options": 
+		[
+			
+			{
+				"optionText": "Next",
+				"leadToId": 102
+			}
+		]
+	},
+	{
+		"id": 16,
+		"mainText": "I decide to use the key to open the door.",
+		"backgroundImage": "creepyRoom2.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1601
+			}
+		]
+	},
+	{
+		"id": 1601,
+		"mainText": "The door creaks open, and I step through, lantern in hand, heart pounding.",
+		"backgroundImage": "creepyRoom2.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1602
+			}
+		]
+	},
+	{
+		"id": 1602,
+		"mainText": "I walk through the door, but I’m not sure what awaits me on the other side.",
+		"backgroundImage": "creepyRoom2.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1603
+			}
+		]
+	},
+	{
+		"id": 1603,
+		"mainText": "The hotel seems to dissolve behind me, and I take my first real step toward freedom.",
+		"backgroundImage": "creepyRoom2.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 17
+			}
+		]
+	},
+	{
+		"id": 17,
+		"mainText": "I wake up again in Room 404. I can’t believe it. The loop is continuing.",
+		"backgroundImage": "bg.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1701
+			}
+		]
+	},
+	{
+		"id": 1701,
+		"mainText": "But now, I know what I need to do.\n\nWhat do I do when I see the receptionist?",
+		"backgroundImage": "reception.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Ask her for advice again",
+				"leadToId": 18
+			},
+			{
+				"optionText": "Ignore her completely",
+				"leadToId": 17011
+			},
+			{
+				"optionText": "Leave the hotel and try to escape",
+				"leadToId": 17021
+			}
+		]
+	},
+
+	{
+		"id": 17021,
+		"mainText": "I make my way to the front entrance. The outside world is right there—I can see it through the glass doors. ",
+		"backgroundImage": "outside-entrance.jpg",
+		"options":
+		[
+			{
+				"optionText": "Step forward",
+				"leadToId": 17022
+			}
+		]
+	},
+
+	{
+		"id": 17022,
+		"mainText": "But as I step forward, the air thickens, pressing against me like an invisible force. The walls begin to pulse and shift, warping the exit into something unrecognizable. The door twists out of reach, stretching into the distance no matter how fast I run.",
+		"backgroundImage": "outside-entrance-warped.jpg",
+		"options":
+		[
+			{
+				"optionText": "Run to another exit door",
+				"leadToId": 17013
+			},
+			{
+				"optionText": "Turn back",
+				"leadToId": 1701
+			}
+		]
+	},
+
+	{
+		"id": 17011,
+		"mainText": "I ignore the receptionist's cryptic words, convinced I can figure this out on my own. I turn away, determined to find my own way out of this place.",
+		"backgroundImage": "reception.jpg",
+		"options":
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 17012
+			}
+		]
+	},
+
+	{
+		"id": 17012,
+		"mainText": "But the air grows thick, heavy, as if the hotel itself is holding me in place. The walls pulse and shift as though they are alive, trapping me further within their grasp.",
+		"backgroundImage": "deeper-hallway.jpg",
+		"options":
+		[
+			{
+				"optionText": "Keep moving forward ",
+				"leadToId": 17013
+			},
+			{
+				"optionText": "Turn back and ask the receptionist again",
+				"leadToId": 1701
+			}
+		]
+	},
+
+	{
+		"id": 17013,
+		"mainText": "The hallway stretches on endlessly, the same sickeningly familiar corridor looping around me. I can feel something watching, following me, its presence growing more oppressive with each step. ",
+		"backgroundImage": "stretched-hallways.jpg",
+		"options":
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 17014
+			}
+		]
+	},
+
+	{
+		"id": 17014,
+		"mainText": "A figure materializes at the end of the hall, tall and hunched, its face obscured by shadows.",
+		"backgroundImage": "figure-hall.jpg",
+		"options":
+		[
+			{
+				"optionText": "Approach the figure",
+				"leadToId": 17015
+			}
+		]
+	},
+
+	{
+		"id": 17015,
+		"mainText": "I approach the figure, but as I get closer, it turns its head sharply, revealing hollow, yellow eyes. It lets out an ear-piercing shriek, its form lunging toward me in an unnatural blur of motion. ",
+		"backgroundImage": "monster.png",
+		"options":
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 17016
+			}
+		]
+	},
+
+	{
+		"id": 17016,
+		"mainText": "Before I can react, it grabs me with terrifying strength, dragging me into the shadows. My body is crushed beneath its weight, and I feel my life slipping away, the last thing I hear being the sound of the hotel laughing.",
+		"backgroundImage": "neck.png",
+		"options":
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 103
+			}
+		]
+	},
+
+
+	{
+		"id": 103,
+		"mainText": "You got killed", 
+		"backgroundImage": "image1.png",
+		"options": 
+		[
+			{
+				"optionText": "Continue",
+				"leadToId": 17
+			}
+		]
+	},
+	{
+		"id": 18,
+		"mainText": "Receptionist: “The darkness has given you the key. Now you must step through and leave this place forever.“",
+		"backgroundImage": "reception.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1801
+			}
+		]
+	},
+	{
+		"id": 1801,
+		"mainText": "The key… I have it! Now I just need to find the door.",
+		"backgroundImage": "reception.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 19
+			}
+		]
+	},
+	{
+		"id": 19,
+		"mainText": "I return to my room, grabbing the lantern.",
+		"backgroundImage": "creepyRoom2.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1901
+			}
+		]
+	},
+	{
+		"id": 1901,
+		"mainText": "The note still lies on the nightstand, its message unchanged: “The truth is hidden in the dark.”",
+		"backgroundImage": "note.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1902
+			}
+		]
+	},
+	{
+		"id": 1902,
+		"mainText": "I head straight to the hallway and follow the symbol one last time.",
+		"backgroundImage": "strange-symbol.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 1903
+			}
+		]
+	},
+	{
+		"id": 1903,
+		"mainText": "What do I do with the hidden door now that I have the key?",
+		"backgroundImage": "creepyRoom2.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Use the key to open the door",
+				"leadToId": 20
+			},
+			{
+				"optionText": "Leave the hotel through the front entrance",
+				"leadToId": 19031
+			},
+			{
+				"optionText": "Ignore the door and keep searching",
+				"leadToId": 190302
+			}
+		]
+	},
+
+	{
+		"id": 190302,
+		"mainText": "I hesitate, feeling drawn to the door but choosing to keep exploring the hotel.",
+		"backgroundImage": "turn-away-hallway.jpg",
+		"options":
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 190303
+			}
+		]
+	},
+
+	{
+		"id": 190303,
+		"mainText": "I walk further down the hallway, hoping to find something that will give me a new clue. But the hallway seems to stretch on endlessly, the air growing colder with each step.",
+		"backgroundImage": "stretched-hallways.jpg",
+		"options":
+		[
+			{
+				"optionText": "Keep walking",
+				"leadToId": 190304
+			},
+			{
+				"optionText": "Turn back and go to the door",
+				"leadToId": 1903
+			}
+		]
+	},
+
+
+	{
+		"id": 190304,
+		"mainText": " The lights flicker as I move further into the hallway, the walls bending and warping in a disorienting pattern. My footsteps become muffled, and the air feels thick with dread. I turn to look behind me, but the hallway has disappeared. There is no longer an exit, just a vast, empty void.",
+		"backgroundImage": "empty-hallway.jpg",
+		"options":
+		[
+			{
+				"optionText": "Wait and hope something changes ",
+				"leadToId": 190305
+			},
+			{
+				"optionText": "Try to find the door again",
+				"leadToId": 1903
+			}
+		]
+	},
+
+	{
+		"id": 190305,
+		"mainText": "The hotel shifts around them—hallways stretch endlessly, doors vanish, and the very walls seem to pulse, expanding and contracting like a living, breathing thing.",
+		"backgroundImage": "even-blacker-long-hallway.jpg",
+		"options":
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2201
+			}
+		]
+	},
+
+	
+	{
+		"id": 2201,
+		"mainText": "Soft whispers curl through the air, weaving through the silence. They beckon, urging me to stay.\n 'Stay. You belong here..'",
+		"backgroundImage": "2201.png",
+		"options":
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2202
+			}
+		]
+	},
+	{
+		"id": 2202,
+		"mainText": "The floor darkens beneath my feet. Shadows slither up my legs, creeping higher, my own body dissolving into the consuming black.",
+		"backgroundImage": "2202.png",
+		"options":
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2203
+			}
+		]
+	},
+	{
+		"id": 2203,
+		"mainText": "But there is no pain—only an ache, a gnawing hunger that is not my own. The hotel does not devour me. It wants. It needs. And now, so do I.",
+		"backgroundImage": "2203.png",
+		"options":
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2204
+			}
+		]
+	},
+	{
+		"id": 2204,
+		"mainText": "I look down, but the hands I see are no longer mine. My fingers stretch unnaturally, twisting, warping. My vision flickers, distorting as the walls groan around me.",
+		"backgroundImage": "2204.png",
+		"options":
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2205
+			}
+		]
+	},
+	{
+		"id": 2205,
+		"mainText": "I am no longer the visitor. I am the entity that haunts the endless hallways.",
+		"backgroundImage": "2205.png",
+		"options":
+		[
+			{
+				"optionText": "End",
+				"leadToId": -2
+			}
+		]
+	},
+	{
+		"id": 19031,
+		"mainText": "I step toward the front entrance, convinced that leaving is my best option.",
+		"backgroundImage": "exit-door-close.jpg",
+		"options":
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 19032
+			}
+		]
+	},
+
+	{
+		"id": 19032,
+		"mainText": "But as I walk, the lobby seems to expand, the walls stretching impossibly far. The door is right there—yet with every step, it moves further away.",
+		"backgroundImage": "exit-door-closer.jpg",
+		"options":
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 19033
+			}
+		]
+	},
+
+	{
+		"id": 19033,
+		"mainText": " The air turns cold, my breath visible in the dim light. Something is very, very wrong.",
+		"backgroundImage": "blacker-long-hallway.jpg",
+		"options":
+		[
+			{
+				"optionText": "Keep pushing forward",
+				"leadToId": 17013
+			},
+			{
+				"optionText": "Turn back",
+				"leadToId": 1903
+			}
+		]
+	},
+
+	{
+		"id": 20,
+		"mainText": "I use the key and open the door one final time.",
+		"backgroundImage": "force-door.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2001
+			}
+		]
+	},
+	{
+		"id": 2001,
+		"mainText": "The door opens, and I step through. For the first time, I feel the weight of the hotel’s oppressive atmosphere lift.",
+		"backgroundImage": "creepyRoom2.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 2002
+			}
+		]
+	},
+	{
+		"id": 2002,
+		"mainText": "The walls around me begin to fade, and I realize: I’ve escaped.",
+		"backgroundImage": "prelast-background.jpg",
+		"options": 
+		[
+			{
+				"optionText": "Next",
+				"leadToId": 21
+			}
+		]
+	},
+	{
+		"id": 21,
+		"mainText": "I made it. I’m free. I don’t know how I did it, but I’ve broken the cycle. The hotel is gone, and I can breathe again.",
+		"backgroundImage": "prelast-background.jpg",
+		"options": 
+		[
+			{
+				"optionText": "End",
+				"leadToId": -1
+			}
+		]
+	},
+
+
+	{
+		"id": -1,
+		"mainText": "End",
+		"backgroundImage": "endImage1.jpg",
+		"options":
+		[
+		]
+	},
+	{
+		"id": -2,
+		"mainText": "End",
+		"backgroundImage": "endImage2.jpg",
+		"options":
+		[
+		]
+	},
+	{
+		"id": -3,
+		"mainText": "End",
+		"backgroundImage": "endImage3.jpg",
+		"options":
+		[
+		]
+	},
+	{
+		"id": -4,
+		"mainText": "End",
+		"backgroundImage": "endImage4.jpg",
+		"options":
+		[
+		]
+	}
+]
